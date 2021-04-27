@@ -1,0 +1,148 @@
+.gameBoard {
+    width: 800px;
+    height: 800px;
+}
+
+#html {
+    background-color: #d6ffff;
+    /* background-color: pink; */
+}
+
+.button {
+    width: 500px;
+    height: 50px;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+button {
+    background-color: #d9c4be;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    max-width: 200px;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: white;
+    border: 3px solid #d9c4be;
+    color: #d9c4be;
+}
+
+.true {
+    background-color: #D3D3D3;
+}
+
+#true {
+    background-color: #D3D3D3;
+}
+
+#won-true {
+    color: white;
+    background-color: grey;
+}
+
+#xx {
+    background-color: grey;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    max-width: 500px;
+    text-align: center;
+    background-color: #85b0bd;
+}
+
+h2 {
+    max-width: 500px;
+    text-align: center;
+    background-color: #d9c4be;
+    font-size: 1.5em;
+}
+
+h3 {
+    max-width: 500px;
+    text-align: center;
+    background-color: #cea191;
+}
+
+table {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 50px;
+}
+
+td {
+    background-color: #cea191;
+}
+
+.a {
+    background-color: #85b0bd;
+}
+
+.a0 {
+    background-color: #85b0bd;
+    color: #85b0bd
+}
+
+.a2 {
+    background-color: #92bdca;
+    /* background-color: purple;
+    color: white; */
+}
+
+.a4 {
+    background-color: #a0cad8;
+}
+
+.a8 {
+    background-color: #add8e6;
+}
+
+.a16 {
+    background-color: #bad3dc;
+}
+
+.a32 {
+    background-color: #c5ced2;
+}
+
+.a64 {
+    background-color: #d0c9c8;
+}
+
+.a128 {
+    background-color: #d9c4be;
+}
+
+.a256 {
+    background-color: #e1bfb4;
+}
+
+.a512 {
+    background-color: #e9baaa;
+}
+
+.a1024 {
+    background-color: #dcad9e;
+}
+
+.a2048 {
+    background-color: #cea191;
+}
+
+
+
